@@ -1,1 +1,14 @@
 Skeleton project for BDD / Cucumber training
+
+SUT is a dummy Python application, without logic in the beginning. Test interface is a Python command line application.
+Use nostetests / specloud to run/write unit tests.
+
+logic.py = SUT logic
+gui.py = SUT gui
+
+tests.py = unit tests for logic.py
+
+testapp.py = test interface
+
+In ruby code you can do "call_sut("Command"), which will call the SUT with the given parameter through the test interface app.
+Implement the code to logic.py (hint: return whatever you want to check in your ruby script). Gui will also display returned string
